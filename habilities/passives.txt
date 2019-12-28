@@ -1,0 +1,41 @@
+# Comentarios são permitidos, basta começar a linha com um #. O # deve ser o PRIMEIRO caracter da linha!
+# Para adicionar uma passiva, basta digitar "add" em uma linha,
+# o nome da passiva na próxima linha, e a descrição da passiva na linha seguinte.
+
+add
+Arquearia
+Você ganha +2 de bônus nas jogadas de ataque realizadas com uma arma de ataque a distância.
+
+add
+Combate com Armas Grandes
+Quando você rolar um 1 ou um 2 num dado de dano de um ataque com arma corpo-a-corpo que esteja empunhando com duas maos, você pode rolar o dado novamente e usar a nova rolagem, mesmo que resulte em 1 ou 2. A arma deve ter a propriedade duas mãos ou versátil para ganhar esse beneficio.
+
+add
+Combate com Duas Armas
+Quando voce estiver engajado em uma luta com duas armas, voce pode adicionar o seu modificador de habilidade de dano na jogada de dano de seu segundo ataque.
+
+add
+Defesa
+Enquanto estiver usando armadura, voce ganha +1 de bonus em sua CA.
+
+add
+Duelismo
+Quando voce empunhar uma arma de ataque corpo-a-corpo em uma mao e nenhuma outra arma, voce ganha +2 de bonus nas jogadas de dano com essa arma.
+
+add
+Critico Aprimorado
+Seus golpes adquirem uma margem de acerto critico de 19 a 20 nas jogadas de ataque.
+
+# Passivas provisórias à frente, elas deveriam ser ações. Implementar elas como ações assim que possível e remover daqui.
+
+add
+Protecao
+No seu turno, caso possua um escudo, voce pode escolher um personagem nao hostil. Qualquer outro personagem que tentar ataca-lo sofre desvantagem.
+
+add
+Retomar o Folego
+Voce possui uma reserva de estamina e pode usa-la para proteger a si mesmo contra danos. No seu turno, voce pode usar uma acao bonus para recuperar pontos de vida igual a 1d10 + seu nivel.\nUma vez que usar essa caracteristica, voce precisara terminar um descanso curto ou longo para usa-la novamente.
+
+add
+Surto de Acao
+Voce pode forcar o seu limite para alem do normal por um momento. Durante o seu turno, voce pode realizar uma acao adicional juntamente com sua acao normal e possivel acao bonus.\nUma vez que usar essa caracteristica, voce precisara terminar um descanso curto ou longo para usá-la novamente.

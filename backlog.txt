@@ -1,0 +1,43 @@
+valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all ./suite
+usar helgrind dps tb
+
+- proficiencia com equipamento (desvantagem para classes q n conseguem usar)
+- pericias
+- status de elevado - a criatura esta em terreno inalcancavel e so pode ser atingida por ataques a distancia
+- nomes aleatorios
+- progressao de niveis
+- subclasse cavaleiro arcano e mestre de batalha para o guerreiro
+- atributos de armaduras (leve pesada etc)
+- passado do personagem (aquele negocio do d&d q da uns bonus)
+- tornar dinamicos varios vetores ali
+- implementar quantidades variadas de itens no inventario
+- implementar desequipar itens
+- adicionar tipos de dano e tipos de armadura (leve, pesada, etc)
+- reimplementar a seção de escolha de equipamento do guerreiro
+- fazer uma funcao decente para dar free nos equipamentos do jogador
+- implementar visao no escuro e cenarios escuros
+- implementar as 2 linhas de posicionamento em combate
+- na acao ataque basico, preencher os comentarios com codigo
+- implementar performable do ataque basico
+- inserir acoes bonus
+- implementar loot (recompensas E itens dropados pelos monstros mortos)
+- mandar o sexo na funcao de apparent_health
+- acoplar a mensagem de anuncio de morte ao momento da morte do personagem  (quando o dano e aplicado)
+- tirar o ti e fazer threads de monstros e jogadores independentes
+- implementar jogos salvos e selecao de save
+- implementar outros cenarios
+- criar struct que armazena os tipos de cenario
+- dar informacoes sobre qual a arma que o personagem empunha ao esscolher o ataque basico
+- mudar a morte de jogador, em q a thread nao some, mas enquanto ele n for revivido, ela nao executa nenhum evento
+- fazer uma funcao que retorna uma lista dos monstros vivos ou dos jogadores vivos, que estiverem em batalha
+- transformar os vetores de jogadores e mosntros em listas
+- armazenar, em vez dos indices, ponteiros para as classes e raças
+- tornar mais eficiente a funcao get_pass_n
+
+- preencher as ações e passivas broto com suas funcionalidades
+- adicionar as ações novas às suas classes para que seja usaveis
+- colocar um inicizalizador de combate, que ajeita alguns estados, como o estado de Presença dos jogadores
+- separar o .h em outros headers
+- adicionar o caracter identificador de personagem para o effects e performable das acoes
+- consertar as acoes q coloquei como passivas
+- lembrar de colocar os gatilhos das passivas dentro das funcoes das acoes

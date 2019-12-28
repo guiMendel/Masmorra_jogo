@@ -1,0 +1,7 @@
+add
+Arquearia
+Você ganha +2 de bônus nas jogadas de ataque realizadas com uma arma de ataque a distância.
+
+add
+Combate com Armas Grandes
+Quando você rolar um 1 ou um 2 num dado de dano de um ataque com arma corpo-a-corpo que esteja empunhando com duas maos, você pode rolar o dado novamente e usar a nova rolagem, mesmo que resulte em 1 ou 2. A arma deve ter a propriedade duas mãos ou versátil para ganhar esse beneficio.

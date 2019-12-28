@@ -1,0 +1,15 @@
+# Comentarios são permitidos, basta começar a linha com um #. O # deve ser o PRIMEIRO caracter da linha!
+# add: indica que a seguir vem a definição de um novo elemento
+# break: indica que a linha a seguir deve ser anexada ao final da descrição do elemento atualmente em definição, após uma quebra de linha
+
+add
+Ataque Básico
+O personagem realiza um ataque, com a arma equipada em sua mao principal, contra uma determinada criatura.
+
+add
+Passar Turno
+O personagem passa esta rodada sem realizar nenhuma acao.
+
+add
+Fugir
+O personagem tenta escapar do combate.\nQuanto mais monstros ainda houver em combate, menor a chance de sucesso.
